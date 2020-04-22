@@ -88,7 +88,6 @@ export class AppHome {
         data: dataUrl
       });
 
-      // Throws error on writeFile so never gets below this line, error is empty
       if (writeResult) {
         console.log('We got a writeResult');
       } else {
